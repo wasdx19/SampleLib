@@ -8,5 +8,6 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         MessageUtil().showMessage(context = this@MainActivity,"Hellow")
+        MessageUtil().showMessage(context = this@MainActivity,"WHY?")
     }
 }
